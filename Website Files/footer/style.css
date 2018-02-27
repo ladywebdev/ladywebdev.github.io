@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Josefin Slab', serif;
+	margin: 0 auto;
+	padding-left: 25px;
+}
+
+header {
+	margin: 0 auto;
+	height: 1000px;
+	width: 100%;
+	background-image: url(Images/coffee_computer.jpg);
+	background-size: cover; 
+	background-position: top center;
+}
+
+a.nav {
+	float: right;
+	text-decoration: none;
+    color: white;
+	font-size: 36px;
+	background-color: black;
+}
+
+.intro {
+	
+}
+
+h1 {
+	font-size: 48px;
+}
+
+
+.sidebar {
+	
+}
+
+footer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+a.social {
+    display: inline-block;
+    text-indent: -9999px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    opacity: .5;
+    transition: all .25s;
+  }
+
+a.twitter {
+    background-image: url("images/twitter.png"); 
+  }
+
+a.instagram {
+    background-image: url("images/instagram30.jpg");
+  }

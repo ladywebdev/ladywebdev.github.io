@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Winston the Corgi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+ 
+ <body>
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Winston</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <header>
+      <img src="Winston_client_success.jpg" alt="Winston" class="profile-image">
+      <h1 class="tag name">Hello, I’m Winston.</h1>
+      <p class="tag location">My home is Atlanta, Georgia </p>
+    </header>
+
+    <main>
+      
+   <table style="width:100%">
+   <tr>
+     <th><div class="card">
+        <h2 class="card-title">About Me</h2>
+        <ul>
+          <li>I'm a Pembroke Welsh Corgi.</li> 
+	  <li>I live at home with my awesome corgmom.</li>
+          <li>I am currently employed at Connect Healthcare as the Client Success Corgi.</li>
+          <li>To view my Doctor.com Profile, click here:<a href="http://www.connecthealthcare.com/meet-the-team/winston-skelton/">Winston Skelton.</a></li>
+        </ul>
+      </div>
+    </th> 
+
+      <th><div class="card">
+        <h2 class="card-title">Skills and Qualifications</h2>
+        <p class="card-title">I want to master the following skills to achieve maximum treat optimization:</p>
+        <ul class="skills">
+          <li>Cuteness</li>
+          <li>Having the Fluffiest Butt</li>
+          <li>Sad Puppy Dog Eyes</li>
+          <li>Nub Wags</li>
+          <li>Snuggles</li>
+        </ul>
+      </div>
+    </th> 
+   </tr>
+   </table>
+
+    </main>
+    <footer>
+      <ul>
+        <li><a href="http://www.twitter.com/winston_corgi" target="_blank" class="social twitter">Twitter</a></li>
+        <li><a href="http://www.instagram.com/sir_winston_the_corgi" class="social Instagram">Instagram</a></li>
+      </ul>
+       <p class="copyright">Copyright 2017, Nub Wags Productions</p>
+    </footer>
+  </body>
+  </html>
+

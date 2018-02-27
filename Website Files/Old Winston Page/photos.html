@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Winston the Corgi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+</head>
+
+<body>
+	<body>
+
+    <div class="main-nav">
+        <ul class="nav">
+          <li class="name">Winston</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="photos.html" target="_blank">Photos</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <header>
+      <img src="winstonderp.jpg" alt="Winston" class="profile-image">
+      <h1 class="tag name">Sir Winston the Corgi</h1>
+      <p class="tag location">My home is Atlanta, Georgia </p>
+    </header>
+	
+	<main>
+	  <h2 class="w3-center">Photos of Corgi Butts</h2>
+
+<div class="w3-content">
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <img class="mySlides" src="corgibutts.jpg" style="width:100%">
+  <img class="mySlides" src="fluffybutt.jpg" style="width:100%">
+  <img class="mySlides" src="heartbutt.jpg" style="width:100%">
+  <img class="mySlides" src="sploots.jpg" style="width:100%">
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+	</main>
+	
+</body>
+
+</html>
